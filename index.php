@@ -16,7 +16,6 @@
 <body>
     
     <?php
-        
         use app\controllers\viewsController;
         $viewsController = new viewsController();
         $vista=$viewsController->obtenerVistasController($url[0]);

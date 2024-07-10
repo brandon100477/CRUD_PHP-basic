@@ -1,0 +1,12 @@
+.img {
+    width: 30px;
+    height: 100px;
+    margin-right: 15px;
+}
+.img-text {
+    font-size: 25px;
+    margin-right: 15px;
+}
+.item-text:hover{
+    background-color: rgb(91, 91, 255) !important;
+}

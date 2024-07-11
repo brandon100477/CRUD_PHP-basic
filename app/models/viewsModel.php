@@ -1,6 +1,6 @@
 <?php
     namespace app\models;
-
+    #Modelo para la redirección de las vistas.
     class viewsModel {
         protected function obtenerVistasModelo($vista){
             $lista=["dashboard"];
@@ -12,6 +12,8 @@
                 }
             }elseif ($vista == "login" || $vista == "index") {
                 $contenido ="login";
+            }elseif ($vista == "register") {
+                $contenido ="register";
             }else {
                 $contenido = "404";
             }

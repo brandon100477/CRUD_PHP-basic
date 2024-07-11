@@ -1,3 +1,4 @@
+<!-- Barra de navegación que se muestra después de iniciar sesión -->
 <!DOCTYPE html>
 <html lang="en">
     <head>

@@ -1,3 +1,4 @@
+//JS para el menú "burger" de la barra de navegación.
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements

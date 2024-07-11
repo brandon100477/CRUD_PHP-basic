@@ -1,5 +1,5 @@
 <div class="login-box">
-  <form>
+  <form class="">
     <div class="title">
         <h2>Login Form</h2>
     </div>
@@ -12,8 +12,8 @@
       <label>Password</label>
     </div>
     <center>
-        <a href="#">LOGIN<span></span></a>
-        <a class="sign-up" href="<?php echo APP_URL; ?>register">SIGN UP<span></span></a>
+      <button type="submit"><a type="submit">LOGIN<span></span></a></button>  
+      <a class="sign-up" href="<?php echo APP_URL; ?>register">SIGN UP<span></span></a>
     </center>
   </form>
 </div>

@@ -28,7 +28,7 @@
             $palabras=["<script>","</script>", "<script src","<script type=","<style>", "</style>","<form>", "<input>", "<button>", '<meta http-equiv="refresh"',"<img src=x onerror=alert(",
                         "<iframe src=x onload=alert(", "<object type=application/x-shockwave-flash>", "<embed src=x onerror=alert(",'<img src="','<img onerror="','<link href="','onload="',
                         'onmouseover="','onfocus="','onblur="','onclick="', "SELECT * FROM", "DELETE FROM", "INSERT INTO", "DROP TABLE", "DROP DATABASE", "TRUNCATE TABLE","SHOW TABLES",
-                        "SHOW DATABASES", "<?php", "?>", "==", "--", "^", ",", ".", "=", ";", "::", "<", ">"];
+                        "SHOW DATABASES", "<?php", "?>", "==", "--", "^", ",", "=", ";", "::", "<", ">"];
             $cadena=trim($cadena);
             $cadena=stripslashes($cadena);
             foreach($palabras as $pa){ 

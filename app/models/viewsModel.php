@@ -3,7 +3,7 @@
     #Modelo para la redirección de las vistas.
     class viewsModel {
         protected function obtenerVistasModelo($vista){
-            $lista=["dashboard"];
+            $lista=["dashboard", "userNew", "userList", "userSearch", "userUpdate", "logOut"];
             if(in_array($vista, $lista)){
                 if(is_file("./app/views/content/".$vista."-view.php")){
                     $contenido = "./app/views/content/".$vista."-view.php";

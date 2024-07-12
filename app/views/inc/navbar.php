@@ -25,22 +25,20 @@
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
                     <a class="navbar-item" href="<?php echo APP_URL; ?>dashboard" ><strong>Home</strong></a>
-                    <a class="navbar-item"><strong>Ability</strong></a>
+                    <a class="navbar-item" href="<?php echo APP_URL; ?>userNew/"><strong>New user</strong></a>
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link"><strong>More</strong></a>
                         <div class="navbar-dropdown">
-                            <a class="navbar-item item-text"><strong>Description</strong></a>
-                            <a class="navbar-item item-text"><strong>Certification</strong></a>
-                            <a class="navbar-item item-text"><strong>Why me</strong></a>
-                            <hr class="navbar-divider">
-                            <a class="navbar-item item-text"><strong>Contact me</strong></a>
+                            <a class="navbar-item item-text" href="<?php echo APP_URL; ?>userList/"><strong>User list</strong></a>
+                            <a class="navbar-item item-text" href="<?php echo APP_URL; ?>userSearch/"><strong>Search users</strong></a>
+                            <a class="navbar-item item-text" href="<?php echo APP_URL; ?>userUpdate/"><strong>Update</strong></a>
                         </div>
                     </div>
                 </div>
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a class="button is-info is-dark"><strong>Sign off</strong></a>
+                            <a class="button is-info is-dark" href="<?php echo APP_URL; ?>logOut/"><strong>Log out</strong></a>
 
                         </div>
                     </div>
